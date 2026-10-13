@@ -1,0 +1,65 @@
+/* GENERATED from tokens/tokens.json. Run npm run build:tokens. Do not edit. */
+@font-face { font-family: 'Vesper Libre'; font-style: normal; font-weight: 400; font-display: swap; src: url('./assets/fonts/vesper-libre-regular.ttf') format('truetype'); }
+@font-face { font-family: 'Vesper Libre'; font-style: normal; font-weight: 700; font-display: swap; src: url('./assets/fonts/vesper-libre-bold.ttf') format('truetype'); }
+:root {
+  --color-red: #ce4b38;
+  --color-cream: #fdf3e6;
+  --color-ink: #271d1d;
+  --color-bg: var(--color-cream);
+  --color-text: var(--color-ink);
+  --color-heading: var(--color-ink);
+  --color-link: var(--color-ink);
+  --color-action-bg: var(--color-red);
+  --color-action-text: var(--color-cream);
+  --color-border: var(--color-ink);
+  --color-focus: var(--color-red);
+  --font-primary: 'Vesper Libre', Georgia, serif;
+  --font-email: Georgia, serif;
+  --font-size-display: clamp(2.5rem, 5vw, 4.5rem);
+  --font-size-h1: clamp(2.25rem, 4vw, 3.5rem);
+  --font-size-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --font-size-h3: 1.5rem;
+  --font-size-body: 1.125rem;
+  --font-size-small: 1rem;
+  --font-size-button: 1.25rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --line-height-heading: 1.15;
+  --line-height-body: 1.6;
+  --line-height-button: 1.4;
+  --spacing-xxsm: 4px;
+  --spacing-xsm: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xlg: 32px;
+  --spacing-xhg: 48px;
+  --spacing-xxlg: 64px;
+  --spacing-xxhg: 80px;
+  --spacing-xxxhg: 96px;
+  --container-max: 1200px;
+  --container-padding: clamp(16px, 4vw, 32px);
+  --measure-copy: 62ch;
+  --section-padding-y: clamp(48px, 6vw, 80px);
+  --grid-gap: 24px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+  --border-width: 1px;
+  --border-width-strong: 2px;
+  --focus-width: 3px;
+  --focus-offset: 4px;
+  --touch-target: 48px;
+  --logo-width: 96px;
+  --mascot-max: 420px;
+  --shadow-none: none;
+  --transition-fast: 160ms ease;
+  --breakpoint-mobile: 48rem;
+  --breakpoint-wide: 64rem;
+  --format-slide-width: 1280px;
+  --format-slide-height: 720px;
+  --format-social-square: 1080px;
+  --format-social-portrait-height: 1350px;
+  --format-social-story-height: 1920px;
+  --format-email-width: 600px;
+}

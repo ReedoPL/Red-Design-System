@@ -1,0 +1,13 @@
+{
+  "sourcePdf": {
+    "path": "brand/source/red-brand-guidelines-v1.pdf",
+    "originalFilename": "Brand Guidelines Red.pdf",
+    "sha256": "9ffde7df99f8ebb1c2381a8d136a708c7aae0c08dfaac527f9cb6b179ff7b66d"
+  },
+  "structureReference": {
+    "repository": "https://github.com/ReedoPL/Protect-Line-Design-System",
+    "commit": "d695295935ae422af84a0e9089dbb806fbf749d8",
+    "role": "Structure only; no Red brand authority."
+  },
+  "redSourceCommit": "d0fee0053034b67b5cbb4d70305f80f01fbc311f"
+}

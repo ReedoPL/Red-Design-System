@@ -1,0 +1,7 @@
+---
+description: Red UI implementation and accessibility
+globs: "**/*.{html,css,js,jsx,tsx,vue,svelte,astro}"
+alwaysApply: false
+---
+
+Reuse components/components.css and matching templates. Tokens live in tokens/tokens.json; colors_and_type.css is generated. Use CSS variables for colour, type and spacing. Ink on cream for ordinary copy and links. Red/cream pairs only for large text: CTA labels remain 20px bold. Prefer native details, labelled inputs, textual errors, visible focus and working mobile navigation. Preserve mobile reading order and reduced motion. Email inline values may use only the default palette; see templates/README.md. Run npm run check and review at 375px and desktop before handoff.
